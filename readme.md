@@ -1,6 +1,6 @@
 # Royalty Enforced NFT
 
-The idea here is to create the most simple NFT standard that enforces creator royalties. This is a proof of concept and very open to feedback.
+The idea here is to create the most simple NFT standard that enforces creator royalties. This is a proof of concept and very open to feedback. I don't believe this is an entirely new idea, but it was fun to come up with an example implementation.
 
 <img width="700" alt="Drawing-22 sketchpad" src="https://user-images.githubusercontent.com/16373521/196536748-0bb9fdf6-c868-4123-866d-d4efa3da9990.png">
 
@@ -10,7 +10,7 @@ NFT royalties are a hot topic as of late. Marketplaces such as Magic Eden and Dy
 
 This can be harmful to artists or projects who require royalties to continue contributing to their project / create value for collectors.
 
-While royalties may not be a sound business model for many projects, I do believe artists should be able to enforce royalties originally described in their contract. With current token standards, royalties are merely a suggestion to marketplaces. As marketplaces compete for traders, I believe the royalty race will eventually go to zero.
+While royalties may not be a sound business model for many projects, I do believe artists should be able to enforce royalties originally described in their contract. With current token standards, even if they implement [EIP-2981 royalty standerd](https://eips.ethereum.org/EIPS/eip-2981), royalties are merely a suggestion to marketplaces. As marketplaces compete for traders, I believe the royalty race will eventually go to zero.
 
 The community has rightfully pointed out some of the hypocracy of marketplaces too. Marketplaces will often make creator royalties optional, but their own marketplace fees are still required. This is counter to the web3 ideals of supporting artists, eliminating rent seekers who extract more value than they create, and relying on code as law.
 
