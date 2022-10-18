@@ -14,27 +14,29 @@ The community has rightfully pointed out some of the hypocracy of marketplaces t
 
 ## Solution
 
-Marketplaces will always be able to circumvent creator royalties **as long as the tokens allow for non-financial transfers**.
+Marketplaces will always be able to circumvent creator royalties <u>**as long as the tokens allow for non-financial transfers**</u>.
 
-If you have the ability to gift or airdrop someone a token (a non-financial transfer), marketplaces can have the original owner "gift" the token to a third party contract (e.g. the marketplace), then handle the finances separately before "gifting" it again to the end buyer, so royalties are never enforced.
+If you have the ability to gift or airdrop someone a token (a non-financial transfer), marketplaces can have the original owner "gift" the token to a third party contract (e.g. the marketplace contract), then handle the finances separately before "gifting" it again to the end buyer. With this flow, royalties are never enforced in the original contract.
 
 The solution we propose makes it impossible to trade NFTs without financial transfer. The ONLY way to trade an NFT in `royalty-enforced-nft` is by listing your token directly through the token contract for a price.
 
-Once a token is listed, anyone acquire the token for the listed price + the royalties specified by the contract creator.
+Once a token is listed, anyone may acquire the token for the listed price + the royalties specified by the contract creator.
 
-If you attempt to list a token for a small price or gift it, there is an arbitrage opportunity as anyone can potentially claim the token at a discount. As such, sellers are incentivised to list their token at a fair price.
+If you attempt to list a token for a small price or gift it, there is an arbitrage opportunity as anyone can potentially claim the token at a discount. As such, sellers are incentivised to list their token at a fair price such that royalties will be enforced.
 
 ## Trade Offs
 
-It is important to recognize that this type of standard would not be right for (likely most) NFT projects. Enforcing only financial trades is a pretty restrictive / opinionated flow which limits the interoperability of the token in many ways.
+It is important to recognize that this type of standard would not be right for (likely most) NFT projects. Enforcing only financial trades is a pretty restrictive / opinionated flow which limits the interoperability of the token in some ways.
 
+- e.g. you cannot gift your token or airdrop it to another wallet
+- You cannot easily transfer the token between hot / cold wallets without buying it from yourself (and paying royalties)
 - Traditional marketplaces will never adopt this type of thing because it completely destroys their business model which requires financial transactions going through their third party contracts.
 - As a result, royalty enforced NFTs might not get much of the great features that marketplaces provide. e.g. auctions / collection offers etc...
   - this kind of thing would be up to the token creator to implement on their original contract
 - Generally, this is a much more restrictive standard and should be used accordingly
 - Other critiques? Are there ways to circumvent this? Very open to feedback.
 
-All this being said, I still think royalty-enforced-nft is a valid option for artists where royalties are a priority, and a meaningful push back to empower creators.
+All this being said, I still think royalty-enforced-nft is a valid option for certain artists where royalties are a priority, and a meaningful push back to empower creators.
 
 ## Disclaimer on the Code
 
