@@ -2,6 +2,8 @@
 
 The idea here is to create the most simple NFT standard that enforces creator royalties. This is a proof of concept and very open to feedback.
 
+<img width="700" alt="Drawing-22 sketchpad" src="https://user-images.githubusercontent.com/16373521/196536748-0bb9fdf6-c868-4123-866d-d4efa3da9990.png">
+
 ## Motivation
 
 NFT royalties are a hot topic as of late. Marketplaces such as Magic Eden and DyDx have implemented "optional royalties", and other protocols such as sudo swap circumvent royalties alltogether.
