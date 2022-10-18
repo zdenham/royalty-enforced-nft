@@ -41,11 +41,12 @@ All this being said, I still think royalty-enforced-nft is a valid option for ce
 ## Disclaimer on the Code
 
 - This code is not tested / audited as of yet. Usea at your own discretion
-- This is meant to be
+- This is meant to be an example, and is incomplete. E.G. does not implement withdraws / max supply / token mint price etc...
 
 ## Other Ideas / Direction
 
 - The listing flow could fairly easily support ERC20 tokens as well, not just native ether
 - Could implement this as a one way wrapper to accept existing immutable ERC721s and issue royalty enforced wrapper tokens
+- Could maintain balances for pull payments rather than buyer push payments
 - The contract might also include "marketplace bips" as a fee to incentivise marketplaces to support specific collections that is **opt in** on a contract level.
   - e.g. creators could CHOOSE to incentivise marketplaces
