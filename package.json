@@ -1,0 +1,11 @@
+{
+  "name": "royalty-enforced-nft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zdenham/royalty-enforced-nft.git",
+  "author": "zdenham <zdenham1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3"
+  }
+}
