@@ -10,7 +10,7 @@ This can be harmful to artists or projects who require royalties to continue con
 
 While royalties may not be a sound business model for many projects, I do believe artists should be able to enforce royalties originally described in their contract. With current token standards, royalties are merely a suggestion to marketplaces. As marketplaces compete for traders, I believe the royalty race will eventually go to zero.
 
-The community has rightfully pointed out some of the hypocracy of marketplaces too, in that they will often make creator royalties optional, but never their own marketplace fee. This is counter to the web3 ideals of supporting artists, eliminating rent seekers who extract more value than they create, and relying on code as law.
+The community has rightfully pointed out some of the hypocracy of marketplaces too. Marketplaces will often make creator royalties optional, but their own marketplace fees are still required. This is counter to the web3 ideals of supporting artists, eliminating rent seekers who extract more value than they create, and relying on code as law.
 
 ## Solution
 
